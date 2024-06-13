@@ -1,5 +1,4 @@
 import React from 'react'
-import '../.next/static/css/app/myapplication.css'
 
 const MyApplicationMain = () => {
   return (

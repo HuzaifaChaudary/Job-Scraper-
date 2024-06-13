@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useRef } from 'react';
-import '../.next/static/css/app/analyzer.css';
 
 const AnalyzerMain = () => {
     const [selectedFile, setSelectedFile] = useState<File | null>(null);

@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import '../.next/static/css/app/allmatches.css'
 import Dropdown from '../components/Dropdown';
 
 const Home: React.FC = () => {
