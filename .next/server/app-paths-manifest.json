@@ -1,9 +1,7 @@
 {
   "/page": "app/page.js",
-  "/myapplications/page": "app/myapplications/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/analyzer/page": "app/analyzer/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/myapplications/page": "app/myapplications/page.js",
   "/all-matches/page": "app/all-matches/page.js",
   "/dashboard/page": "app/dashboard/page.js"
 }
