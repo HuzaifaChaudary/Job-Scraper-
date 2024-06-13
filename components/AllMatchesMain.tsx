@@ -6,8 +6,8 @@ const Home: React.FC = () => {
     return (
       <div>
         <h1>Dropdown Example</h1>
-        <Dropdown label="Select Filter" options={["abc", "def", "ghi"]} inputId="filter-input" />
-        <Dropdown label="Platforms" options={["abc", "def", "ghi"]} inputId="platforms-input" />
+        <Dropdown label="Select Filter" options={["abc","def","ghi"]} inputId="filter-input" />
+        <Dropdown label="Platforms" options={["abc","def","ghi"]} inputId="platforms-input" />
       </div>
     );
   };
@@ -15,20 +15,20 @@ const Home: React.FC = () => {
 
   const AllMatchesMain: React.FC = () => {
     return (
-      <div className="card-nfy" style={{ backgroundColor: "white", margin: 30, padding: 20 }}>
+      <div className="card-nfy" style={{ backgroundColor:"white", margin: 30, padding: 20 }}>
         <h4><span>Results from all loops</span></h4>
         <div className="card-99d card-o9s v-ghe theme--2pi whi-r4y">
           <div className="mb-eoo">
-            <div data-v-100cea66="">
-              <div data-v-100cea66="">
-                <div data-v-6ca22560="" data-v-100cea66="" className="filter-o1n">
+            <div >
+              <div >
+                <div   className="filter-o1n">
                   <Dropdown label="Select Filter" options={["abc", "def", "ghi"]} inputId="filter-input" />
                   <Dropdown label="Platforms" options={["abc", "def", "ghi"]} inputId="platforms-input" />
                   {/* <div data-v-6ca22560="" className="input-o6t filter-e4z input-s7t input-5ll theme--2pi field-jjw field-oer field-kq7">
                     <div className="input-1of">
                       <div className="input-ywv">
                         <fieldset>
-                          <legend className="style-mWNgC" id="style-mWNgC"><span>​</span></legend>
+                          <legend className="style-mWNgC" id="style-mWNgC"><span> </span></legend>
                         </fieldset>
                         <div className="field-a2x"><label className="label-k22 theme--2pi style-zcdjA" id="style-zcdjA">Filter Companies</label><input id="inp-8ln" type="text" /></div>
                       </div>

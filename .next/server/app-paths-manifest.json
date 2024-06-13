@@ -1,7 +1,25 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/lead/route": "app/api/lead/route.js",
+  "/api/stripe/create-checkout/route": "app/api/stripe/create-checkout/route.js",
+  "/api/stripe/create-portal/route": "app/api/stripe/create-portal/route.js",
+  "/api/webhook/mailgun/route": "app/api/webhook/mailgun/route.js",
+  "/api/webhook/stripe/route": "app/api/webhook/stripe/route.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/opengraph-image.png/route": "app/opengraph-image.png/route.js",
   "/page": "app/page.js",
+  "/twitter-image.png/route": "app/twitter-image.png/route.js",
   "/analyzer/page": "app/analyzer/page.js",
-  "/myapplications/page": "app/myapplications/page.js",
   "/all-matches/page": "app/all-matches/page.js",
-  "/dashboard/page": "app/dashboard/page.js"
+  "/myapplications/page": "app/myapplications/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/tos/page": "app/tos/page.js",
+  "/blog/[articleId]/page": "app/blog/[articleId]/page.js",
+  "/blog/author/[authorId]/page": "app/blog/author/[authorId]/page.js",
+  "/blog/category/[categoryId]/page": "app/blog/category/[categoryId]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/blog/page": "app/blog/page.js"
 }

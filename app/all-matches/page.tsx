@@ -18,7 +18,7 @@ export default async function AllMatches() {
         <DashboardSideBar />
       </div>
       <div className="dashboard-content">
-        <div className="dashboard-header">
+        <div className="dashboard-header"> 
           <AllMatchesHeader />
         </div>
         <div className="dashboard-main">

@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: true, // Disable SWC minification
   images: {
     domains: [
-      // NextJS <Image> component needs to whitelist domains for src={}
       "lh3.googleusercontent.com",
       "pbs.twimg.com",
       "images.unsplash.com",
       "logos-world.net",
       "firebasestorage.googleapis.com",
+
     ],
+    formats: ['image/webp'],
   },
 };
 
